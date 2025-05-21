@@ -1,0 +1,58 @@
+/* src/pages/ListFiles.css */
+
+.list-files-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+}
+
+.list-files-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.list-files-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-files-container li {
+  margin: 12px 0;
+  padding: 12px 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.list-files-container li:hover {
+  background-color: #e0f0ff;
+}
+
+.list-files-container a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.list-files-container a:hover {
+  text-decoration: underline;
+}
+
+.list-files-container p {
+  text-align: center;
+  color: #666;
+  margin-top: 20px;
+}
+
+.list-files-container .error {
+  color: #d9534f;
+  text-align: center;
+  margin-top: 20px;
+}

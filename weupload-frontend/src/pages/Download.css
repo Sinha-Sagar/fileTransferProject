@@ -1,0 +1,32 @@
+/* Download.css */
+
+.download-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.message {
+  background-color: white;
+  padding: 30px 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  max-width: 400px;
+}
+
+.message.error {
+  color: #d9534f;
+  border: 1px solid #d9534f;
+}
+
+.message.loading {
+  color: #0275d8;
+  border: 1px solid #0275d8;
+}
