@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your Secure File Link</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #4f46e5;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 30px;
+            color: #333333;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: #4f46e5;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        .footer {
+            background-color: #f1f1f1;
+            color: #888888;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+<div class="email-container">
+    <div class="header">
+        <h1>Secure File Download</h1>
+    </div>
+    <div class="content">
+        <p>Hello,</p>
+        <p>Your secure file is ready to download. Click the button below to access it:</p>
+        <p style="text-align: center;">
+            <a class="button" href="{{.DownloadLink}}" target="_blank" style="color: white;">Download File</a>
+        </p>
+        <p><strong>Note:</strong> This link is valid for <strong>{{.LinkValidity}}</strong>. After that, it will expire.</p>
+        <p>If you did not request this file, please ignore this email.</p>
+    </div>
+    <div class="footer">
+        &copy; 2025 File Transfer App — All rights reserved.
+    </div>
+</div>
+</body>
+</html>
